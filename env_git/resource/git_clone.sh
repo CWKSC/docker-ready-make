@@ -12,6 +12,8 @@ if [ $# != 2 ]
     exit 1
 fi
 
+echo ""
 git clone https://github.com/$1/$2
+echo ""
 
 cd $2
