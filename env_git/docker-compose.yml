@@ -1,0 +1,10 @@
+version: '3.9'
+
+services:
+  env_git:
+    container_name: env_git
+    build: .
+    image: env_git
+    hostname: env_git
+    volumes:
+      - ./workspace:/workspace

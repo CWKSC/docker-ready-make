@@ -1,0 +1,1 @@
+docker exec -it env_gradle_kotlin /bin/bash

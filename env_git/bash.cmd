@@ -1,0 +1,1 @@
+docker exec -it env_git /bin/bash

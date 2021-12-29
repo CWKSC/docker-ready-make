@@ -1,0 +1,9 @@
+version: '3.9'
+
+services:
+  env_vim:
+    container_name: env_vim
+    hostname: env_vim
+    image: env_vim
+    volumes:
+      - ./workspace:/workspace
