@@ -1,9 +1,10 @@
 version: '3.9'
 
 services:
-  app:
+  env_gradle_kotlin:
     container_name: env_gradle_kotlin
-    hostname: env_gradle_kotlin
+    build: .
     image: env_gradle_kotlin
+    hostname: env_gradle_kotlin
     volumes:
       - ./workspace:/workspace

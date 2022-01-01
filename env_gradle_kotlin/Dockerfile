@@ -16,7 +16,7 @@ RUN wget https://services.gradle.org/distributions/gradle-${GRADLE_VERSION}-bin.
 
 ENV PATH=$PATH:/opt/gradle/gradle-${GRADLE_VERSION}/bin
 
-COPY ./resource/start.sh .
+COPY ./resource/start.sh /
 RUN chmod +x /start.sh
 CMD ["/start.sh"]
 
